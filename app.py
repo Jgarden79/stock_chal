@@ -20,9 +20,16 @@ app.layout = html.Div([
                  style={'height': "25%", "width": "100%", 'display': 'block', 'margin-left': '0',
                         'margin-center': 'auto', "padding-bottom": "10px"})]),
     dbc.Row([
-        html.Img(src="https://jgarden79.github.io/PM_vis/dollar.png",
-                 style={'height': "1%", "width": "45%", 'display': 'block', 'margin-left': '27%',
-                        'margin-center': 'auto', "padding-bottom": "10px"})]),
+        dbc.Col([html.Img(src="https://jgarden79.github.io/PM_vis/MiLM4ebLT.gif",
+                 style={'height': "125px", "width": "150px", 'display': 'block', 'margin-left': '50%',
+                        'margin-center': 'auto', "padding-bottom": "10px"})],width=4),
+        dbc.Col([html.Img(src="https://jgarden79.github.io/PM_vis/MiLM4ebLT.gif",
+                          style={'height': "125px", "width": "150px", 'display': 'block', 'margin-left': '50%',
+                                 'margin-center': 'auto', "padding-bottom": "10px"})], width=4),
+        dbc.Col([html.Img(src="https://jgarden79.github.io/PM_vis/MiLM4ebLT.gif",
+                          style={'height': "125px", "width": "150px", 'display': 'block', 'margin-left': '50%',
+                                 'margin-center': 'auto', "padding-bottom": "10px"})], width=4),
+    ]),
 
     dbc.Row([
         html.Div(id='league')]),
