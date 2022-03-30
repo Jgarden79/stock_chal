@@ -1,1 +1,1 @@
-web: gunicorn strat_pages2:server
+web: gunicorn app:server
